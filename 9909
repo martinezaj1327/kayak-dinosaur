@@ -1,0 +1,806 @@
+2016-07-22 02:21:52.302+0000 1899 TextNowApp/D e	ANR detection time: 8000 msec
+2016-07-22 02:21:52.890+0000 1899 a/D Initializing acrobits client
+2016-07-22 02:21:56.322+0000 1899 a/I Acrobits register SipAccount called
+2016-07-22 02:21:56.412+0000 1899 a/D Saved account: TextNow SIP Account
+2016-07-22 02:21:56.443+0000 1899 a/D onNetworkChangeDetected - WiFi
+2016-07-22 02:21:56.445+0000 1899 a/D Initialized softphone
+2016-07-22 02:21:56.968+0000 1899 a/D Registration state changed. isRegistered: false
+2016-07-22 02:21:57.030+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 02:21:57.089+0000 1899 TNTaskService/I Queuing task (0):GetFeatureTogglesTask
+2016-07-22 02:21:57.123+0000 1899 TNTaskService/I Starting to run task (0):GetFeatureTogglesTask
+2016-07-22 02:21:57.210+0000 1899 AbstractHttpCommand/I FeatureTogglesVersionGet request made
+2016-07-22 02:21:57.212+0000 1899 AbstractHttpCommand/D FeatureTogglesVersionGet URI: https://features.textnow.com/api/v1/platforms/android/version?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=0bdf39e4b062f0ad331d6f9fd8f76887
+2016-07-22 02:21:57.213+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 02:21:57.215+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 02:21:57.828+0000 1899 AbstractHttpCommand/I FeatureTogglesVersionGet response ok
+2016-07-22 02:21:57.833+0000 1899 AbstractHttpCommand/D FeatureTogglesVersionGet response: {"id":2,"name":"android","enabled":true,"features_version":"2162267533"}
+2016-07-22 02:21:57.835+0000 1899 AbstractHttpCommand/I FeatureTogglesVersionGet request completed
+2016-07-22 02:21:57.839+0000 1899 TNTaskService/I Finished running task (0):GetFeatureTogglesTask
+2016-07-22 04:06:40.140+0000 1899 TNActivityBase/D TextNow	WelcomeActivity on create: register receiver
+2016-07-22 04:06:40.243+0000 1899 e/D FlurryAgentBridge	welcome_screen_show
+2016-07-22 04:06:41.690+0000 1899 a/D Session Record saved: {"created_at":"2016-07-22 04:06:40","username":"ginat86","phone_num":"+17026023329","client_type":"TN_ANDROID","event_source":"client"}
+2016-07-22 04:06:43.170+0000 1899 WelcomeActivity/D verifying user
+2016-07-22 04:06:43.171+0000 1899 WelcomeActivity/D Conversations are loaded, checking phone number and proceeding
+2016-07-22 04:06:43.175+0000 1899 WelcomeActivity/I User is signed in - starting MainActivity
+2016-07-22 04:06:43.230+0000 1899 TNWidgetProvider/D Widget	OnReceive
+2016-07-22 04:06:43.232+0000 1899 TNWidgetProvider/D Widget	Intent: com.enflick.android.TextNow.widget.WIDGET_LOGIN_CHANGE
+2016-07-22 04:06:43.285+0000 1899 TNActivityBase/D TextNow	MainActivity on create: register receiver
+2016-07-22 04:06:45.076+0000 1899 MainActivity/V MainControllerBase	onActivityViewReady
+2016-07-22 04:06:45.238+0000 1899 a/D MoPub	Loading url: http://ads.mopub.com/m/ad?v=6&id=22f25a4a812711e295fa123138070049&nv=4.7.1&dn=alps%2CX401%2CX401&bundle=com.enflick.android.TextNow&q=m_app_version%3A4.17.2%2Cm_platform%3Aandroid&z=-0700&o=p&w=320&h=480&sc_a=1.0&mcc=310&mnc=260&iso=us&cn=T-Mobile%20&ct=2&av=4.17.2&udid=mp_tmpl_advertising_id&dnt=mp_tmpl_do_not_track&mr=1&android_perms_ext_storage=1
+2016-07-22 04:06:45.721+0000 1899 x/V MainControllerBase	onActivityCreated
+2016-07-22 04:06:45.761+0000 1899 z/D MainControllerOnePane	Pushing parent fragment: i{426b9bf8}
+2016-07-22 04:06:45.788+0000 1899 x/D MainControllerBase	commitFragmentTransaction: BackStackEntry{426c4d18}
+2016-07-22 04:06:45.790+0000 1899 z/D MainControllerOnePane	New back stack depth: 1
+2016-07-22 04:06:45.799+0000 1899 MainActivity/D k	start In-app billing setup...
+2016-07-22 04:06:45.802+0000 1899 d/D IabHelper	Starting in-app billing setup.
+2016-07-22 04:06:45.889+0000 1899 MainActivity/D CheckESN	skipping, next schedule on 8/16/94 11:12 PM
+2016-07-22 04:06:45.933+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 60 seconds
+2016-07-22 04:06:45.959+0000 1899 o/I PhotoManager	Avail mem: 494395392
+2016-07-22 04:06:45.962+0000 1899 o/I PhotoManager	Cache adj: 0.5
+2016-07-22 04:06:46.039+0000 1899 c/D Launch times; 36
+2016-07-22 04:06:46.159+0000 1899 e/D FlurryAgentBridge	/Activity_Stream
+2016-07-22 04:06:46.213+0000 1899 b/D Specified ad space: 081350453f2b4c2d93341b037d21d4e7
+2016-07-22 04:06:46.249+0000 1899 i/D TextNow	i{426b9bf8 #0 id=0x7f1002e7} onCreateView
+2016-07-22 04:06:47.318+0000 1899 MainActivity/V MainControllerBase	onActivityStart
+2016-07-22 04:06:47.338+0000 1899 x/V MainControllerBase	onActivityResume
+2016-07-22 04:06:47.616+0000 1899 e/D FlurryAgentBridge	view_activity_stream
+2016-07-22 04:06:47.655+0000 1899 TNWidgetProvider/D Widget	OnReceive
+2016-07-22 04:06:47.657+0000 1899 TNWidgetProvider/D Widget	Intent: com.enflick.android.TextNow.widget.WIDGET_LOGIN_CHANGE
+2016-07-22 04:06:47.674+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.682+0000 1899 TNTaskService/I Queuing task (1):GetUserInfoTask
+2016-07-22 04:06:47.685+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.689+0000 1899 TNTaskService/I Queuing task (2):GetWalletTask
+2016-07-22 04:06:47.692+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.698+0000 1899 TNTaskService/I Queuing task (3):GetRatesForCountriesTask
+2016-07-22 04:06:47.701+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.707+0000 1899 TNTaskService/I Queuing task (4):GetSettingsTask
+2016-07-22 04:06:47.709+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.728+0000 1899 TNTaskService/I Queuing task (5):ReportIdfaTask
+2016-07-22 04:06:47.733+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.748+0000 1899 TNTaskService/I Queuing task (6):GetBlockedContactsTask
+2016-07-22 04:06:47.751+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.758+0000 1899 TNTaskService/I Queuing task (7):GetGroupsTask
+2016-07-22 04:06:47.760+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:47.778+0000 1899 TNTaskService/I Queuing task (8):GetSubscriptionTask
+2016-07-22 04:06:47.827+0000 1899 TNTaskService/I Starting to run task (1):GetUserInfoTask
+2016-07-22 04:06:47.885+0000 1899 AbstractHttpCommand/I UsersGet request made
+2016-07-22 04:06:47.886+0000 1899 AbstractHttpCommand/D UsersGet URI: https://api.textnow.me/api2.0/users/ginat86?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=e8e7b1c470d102937b8915033946d8c6
+2016-07-22 04:06:47.887+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:47.889+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:47.900+0000 1899 GCMIntentService/D Registering with GCM...
+2016-07-22 04:06:47.906+0000 1899 TNTaskService/I Starting to run task (2):GetWalletTask
+2016-07-22 04:06:47.912+0000 1899 AbstractHttpCommand/I WalletGet request made
+2016-07-22 04:06:47.915+0000 1899 AbstractHttpCommand/D WalletGet URI: https://api.textnow.me/api2.0/users/ginat86/wallet?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=3161fe452f31a620be0b63d826e15a36
+2016-07-22 04:06:47.918+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:47.921+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:48.106+0000 1899 TNTaskService/I Starting to run task (3):GetRatesForCountriesTask
+2016-07-22 04:06:48.133+0000 1899 AbstractHttpCommand/I RatesCountriesGet request made
+2016-07-22 04:06:48.154+0000 1899 AbstractHttpCommand/D RatesCountriesGet URI: https://api.textnow.me/api2.0/rates/countries?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=15660a751b811b401f9b8b20a3da2040
+2016-07-22 04:06:48.166+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:48.173+0000 1899 AbstractHttpCommand/D If-Modified-Since: Fri, 03 Jun 2016 00:00:00 GMT
+2016-07-22 04:06:48.194+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:48.566+0000 1899 AbstractHttpCommand/I WalletGet response ok
+2016-07-22 04:06:48.574+0000 1899 AbstractHttpCommand/D WalletGet response: {"result":{"textnow_credit":10,"account_balance":0,"currency":"USD"},"error_code":null}
+2016-07-22 04:06:48.598+0000 1899 AbstractHttpCommand/I WalletGet request completed
+2016-07-22 04:06:48.625+0000 1899 AbstractHttpCommand/I RatesCountriesGet response ok
+2016-07-22 04:06:48.626+0000 1899 AbstractHttpCommand/D RatesCountriesGet response: null
+2016-07-22 04:06:48.628+0000 1899 AbstractHttpCommand/I RatesCountriesGet request completed
+2016-07-22 04:06:48.807+0000 1899 TNTaskService/I Starting to run task (4):GetSettingsTask
+2016-07-22 04:06:48.826+0000 1899 TNTaskService/I Finished running task (3):GetRatesForCountriesTask
+2016-07-22 04:06:48.840+0000 1899 AbstractHttpCommand/I SettingsGet request made
+2016-07-22 04:06:48.852+0000 1899 AbstractHttpCommand/D SettingsGet URI: https://api.textnow.me/api2.0/settings?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=08f2a3ef9f5de0f17ec61caf75845de9
+2016-07-22 04:06:48.883+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:48.884+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:48.887+0000 1899 TNTaskService/I Finished running task (2):GetWalletTask
+2016-07-22 04:06:49.065+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:GetRatesForCountriesTask taskId:3 errorOccurred:false statusCode:304 errorCode:null
+2016-07-22 04:06:49.082+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:GetWalletTask taskId:2 errorOccurred:false statusCode:200 errorCode:null
+2016-07-22 04:06:49.141+0000 1899 AbstractHttpCommand/I SettingsGet response ok
+2016-07-22 04:06:49.160+0000 1899 AbstractHttpCommand/D SettingsGet response: {"crash_report":{"rollout":1,"total":1000},"ad":{"jsdict":[{"ad_network":"AERSERV","ad_platform":"AERSERV_T2","search_key":"1007818"},{"ad_network":"AERSERV","ad_platform":"AERSERV_T2","search_key":"1006937"},{"ad_network":"AERSERV","ad_platform":"AERSERV_T1","search_key":"1006936"},{"ad_network":"AERSERV","ad_platform":"AERSERV_T1","search_key":"1006936"},{"ad_network":"RUBICON","ad_platform":"RUBICON_REMNANT","search_key":"24199"},{"ad_network":"RUBICON","ad_platform":"RUBICON_70","search_key":"36876"},{"ad_network":"RUBICON","ad_platform":"RUBICON_PMP","search_key":"69636"},{"ad_network":"AD.COM","ad_platform":"AD.COM_100PERCENT","search_key":"3318926"},{"ad_network":"AD.COM","ad_platform":"AD.COM_25","search_key":"3318927"},{"ad_network":"INMOBI","ad_platform":"INMOBI_DEFAULT","search_key":"inmobi"},{"ad_network":"OPENX","ad_platform":"OPENX_T2","search_key":"538085325"},{"ad_network":"OPENX","ad_platform":"OPENX_T2","search_key":"538130616"},{"ad_network":"OPENX","ad_platform":"OPENX_T1","search_key":"538188818"},{"ad_network":"MOPUB","ad_platform":"MOPUB_MPX","search_key":"mpx.mopub"},{"ad_network":"XAD","ad_platform":"XAD_JS","search_key":"xad.com"},{"ad_network":"NEXAGE","ad_platform":"NEXAGE_T1","search_key":"8a809449013434ed9b04fd283e6104b3"},{"ad_network":"NEXAGE","ad_platform":"NEXAGE_T2","search_key":"8a809449013a3a4c6d60798e783058d1"}],"adRefreshPeriod":0,"pAdRefreshPeriod":9,"kb_ads":{"kb_ad_daily_limit":5,"kb_ad_min_hourly_rate":4,"kb_ad_min_texts_rate":100},"at_aws_pool_id":"us-east-1:22ed7255-9d53-4819-b642-67dc042bdb44","at_firehose_stream_name":"adtracker-prod","offerwall":"tapjoy","offerwall_use_all":true,"offerwall_hide_for_ar":false,"enable_native_ads":true,"native_ads":{"conversation_list":{"enabled":true},"in_call":{"enabled":true},"outgoing_call_message":{"enabled":true}},"native_ads_rollout":100,"native_ad_interval":48,"default_native_ad":{"headline":"No contract phones from $4.99","summary":"Cheap phones, no tax, no contracts, free shipping","avatar":"http:\/\/static.textnow.com\/appassets\/avatar_message_tax.jpg","click_url":"https:\/\/www.textnow.com\/wireless?utm_source=iOS&utm_medium=instream&utm_content=mothersday_general&utm_campaign=mothersday"},"native_announcement":{"title":"Moto E 4G phone for $4.99!","sso":"just needs to exist","campaign_id":87,"navbar_color":"4F98F6","cell":{"avatar_url":"http:\/\/static.textnow.com\/appassets\/avatar_message.jpg","headline":"Moto E 4G phone for $4.99!","message":"Cheap phones from $4.99, no tax, no contracts, free shipping!","date":"SALE"},"copy":{"action_url":"https:\/\/www.textnow.com\/wireless?utm_source=iOS&utm_medium=native&utm_content=scsale_general&utm_campaign=scsale_phone","image_url":"http:\/\/static.textnow.com\/appassets\/fsnc2_sale_native_ad_iphone6_720a.jpg","image_url_iphone4":"http:\/\/static.textnow.com\/appassets\/fsnc2_sale_native_ad_iphone4.jpg"},"button":{"color":"F43375","background_color":"FFFFFF","text":"View Deals","height":50,"background_height":90,"corner_radius":25,"action_url":"https:\/\/www.textnow.com\/wireless?utm_source=iOS&utm_medium=native&utm_content=scsale_general&utm_campaign=scsale_phone","padding":{"bottom":20,"top":20,"right":20,"left":20},"text_attributes":{"color":"FFFFFF","size":"20","alignment":1}}},"use_supersonic_mediation":true,"video":{"nonincentivised":{"providers":["YUME","TREMOR"]},"incentivised2":{"providers":["FLURRY","ADCOLONY","VUNGLE"]},"incentivised":{"providers":["FLURRY","ADCOLONY","VUNGLE"]}},"inhouse":{"initial":{"enable":1,"imageUrl":"http:\/\/static.textnow.com\/banners\/tnwireless.jpg","redirectUrl":"https:\/\/www.textnow.com\/wireless?ref=iosbanner","height":50,"width":320}},"inhouseiPad":{"initial":{"enable":1,"imageUrl":"http:\/\/static.textnow.com\/textnowwireless_ipad_ad.jpg","redirectUrl":"https:\/\/www.textnow.com\/wireless?ref=iosbanner","height":250,"width":300}},"ad_refresh_rate":{"mopub_mediation_refresh_rate":15,"mopub_mediation_refresh_rate_debug":15,
+2016-07-22 04:06:49.179+0000 1899 AbstractHttpCommand/D "flurry_refresh_rate":30,"flurry_refresh_rate_debug":15},"ad_refresh_cap":{"mopub_mediation_refresh_cap":10,"mopub_mediation_refresh_cap_debug":6,"flurry_refresh_cap":10,"flurry_refresh_cap_debug":6}},"store":{"products":{"com.enflick.ios.textnow.wallpaper":{"server_name":"WALL_BUND","cost":{"dollar":0.99,"credit":35}},"com.enflick.ios.textnow.soundpack":{"server_name":"0009","cost":{"dollar":0.99,"credit":35}},"com.enflick.ios.textnow.voice.year":{"cost":{"dollar":29.99}},"com.enflick.ios.textnow.voice.month":{"cost":{"dollar":2.99}},"com.enflick.ios.textnow.adremoval.year":{"cost":{"dollar":5.99}},"com.enflick.ios.textnow.adremoval.month":{"cost":{"dollar":0.99}},"com.enflick.ios.textnow.credits.onehundred":{"cost":{"dollar":1.99},"value":100},"com.enflick.ios.textnow.credits.twohundred":{"cost":{"dollar":2.99},"value":200},"com.enflick.ios.textnow.credits.fivehundred":{"cost":{"dollar":7.99},"value":500},"0008":{"server_name":"WALL_BUND","cost":{"dollar":0.99,"credit":35}},"0009":{"server_name":"0009","cost":{"dollar":0.99,"credit":35}},"3002":{"cost":{"dollar":29.99}},"3001":{"cost":{"dollar":2.99}},"2000":{"cost":{"dollar":5.99}},"2002":{"cost":{"dollar":0.99}},"100CREDS":{"cost":{"dollar":1.99},"value":100},"200CREDS":{"cost":{"dollar":2.99},"value":200},"500CREDS":{"cost":{"dollar":7.99},"value":500},"textnow_paid":{"com.enflick.ios.textnow.internationalcredit.fivedollars":{"value":5},"com.enflick.ios.textnow.internationalcredit.tendollars":{"value":10},"com.enflick.ios.textnow.internationalcredit.twentydollars":{"value":20},"com.enflick.ios.textnow.premium.1.month":{"value":"One Month","duration":"month"},"com.enflick.ios.textnow.premium.1.year":{"value":"One Year","duration":"year"}},"textnow_free":{"com.tinginteractive.usms.internationalcredit.fivedollars":{"value":5},"com.tinginteractive.usms.internationalcredit.tendollars":{"value":10},"com.tinginteractive.usms.internationalcredit.twentydollars":{"value":20},"com.tinginteractive.usms.premium.1.month":{"value":"One Month","duration":"month"},"com.tinginteractive.usms.premium.1.year":{"value":"One Year","duration":"year"}}}},"incentivised_sharing":{"facebook":{"credits":5,"share_period_in_days":21},"twitter":{"credits":5,"share_period_in_days":21},"contact":{"credits":50}},"reporting":{"graylog_url":"graylog:\/\/graylog.textnow.me","exception_reporting_enabled":1},"groups":{"group_messaging_enabled":0,"group_messaging_enabled_5.1.5_and_newer":1,"group_messaging_staged_rollout":65535,"group_extra_info_enabled":0,"group_max_allowed_members":8},"feedback":{"feedback_email":"textnow.ios.feedback@enflick.com","feedback_enabled":1,"appstore_review_enabled":1,"review_prompt_enabled":1},"textnow_wireless_store_banner":{"banner_enabled":1,"num_days_before_redisplay":2,"banner_message":"Don't miss out on all the deals!","banner_color":"57068C","banner_title":"Phones from $4.99","nowifi_banner_message":"Use without WiFi! Checkout TextNow Wireless.","nowifi_banner_color":"57068C","nowifi_banner_title":"No Network Connection"},"android":{"sip":{"codec_order":"105,3,102,0,8,9","dead_channel_timeout":4000,"call_trying_timeout_cdma_fallback":2000,"call_sip_regitration_timeout_cdma_fallback":4000},"call_rating_dialog":{"rollout":1000,"total":1000},"cdma":{"ping_threshold":235,"bandwidth_threshold":55,"download_timeout":550,"test_file_url":"http:\/\/speedtest.textnow.me\/100k","test_file_ul_url":"http:\/\/speedtest.textnow.me\/upload\/100k","ping_count":7,"ping_count_long":12,"ping_max":500,"ping_avg":140,"ping_mdev":20,"ping_duration":3000,"ping_addr":"speedtest.textnow.me"},"cdma_aggressive":{"ping_threshold":190,"bandwidth_threshold":85,"download_timeout":550,"test_file_url":"http:\/\/speedtest.textnow.me\/100k","test_file_ul_url":"http:\/\/speedtest.textnow.me\/upload\/100k","ping_count":7,"ping_count_long":12,"ping_max":500,"ping_avg":115,"ping_mdev":10,"ping_duration":3000,"ping_addr":"speedtest.textnow.me"},"cdma_low":{"ping_threshold":260,"bandwidth_threshold":40,
+2016-07-22 04:06:49.189+0000 1899 AbstractHttpCommand/D "download_timeout":750,"test_file_url":"http:\/\/speedtest.textnow.me\/100k","test_file_ul_url":"http:\/\/speedtest.textnow.me\/upload\/100k","ping_count":7,"ping_count_long":12,"ping_max":500,"ping_avg":150,"ping_mdev":35,"ping_duration":3000,"ping_addr":"speedtest.textnow.me"},"cdma_128k":{"ping_threshold":235,"bandwidth_threshold":15,"download_timeout":850,"test_file_url":"http:\/\/speedtest.textnow.me\/100k","test_file_ul_url":"http:\/\/speedtest.textnow.me\/upload\/100k","ping_count":7,"ping_count_long":12,"ping_max":500,"ping_avg":140,"ping_mdev":20,"ping_duration":3000,"ping_addr":"speedtest.textnow.me"},"cdma_aggressive_128k":{"ping_threshold":190,"bandwidth_threshold":15,"download_timeout":850,"test_file_url":"http:\/\/speedtest.textnow.me\/100k","test_file_ul_url":"http:\/\/speedtest.textnow.me\/upload\/100k","ping_count":7,"ping_count_long":12,"ping_max":500,"ping_avg":115,"ping_mdev":15,"ping_duration":3000,"ping_addr":"speedtest.textnow.me"},"cdma_low_128k":{"ping_threshold":260,"bandwidth_threshold":15,"download_timeout":850,"test_file_url":"http:\/\/speedtest.textnow.me\/100k","test_file_ul_url":"http:\/\/speedtest.textnow.me\/upload\/100k","ping_count":7,"ping_count_long":12,"ping_max":500,"ping_avg":150,"ping_mdev":35,"ping_duration":3000,"ping_addr":"speedtest.textnow.me"},"banner_group":[{"id":"delinquent","color":"#c81442","secondary":"Your credit card payment was declined and your account has been suspended. Tap here to fix the problem."},{"id":"reactivate","color":"#c81442","secondary":"Your wireless plan is inactive. You can still reactivate your plan. Tap for more information."},{"id":"data_usage","interval":1,"color":"#c81442","secondary":"You have used %1$s of data in your plan.\nTap here to upgrade your plan."},{"id":"activate","interval":1,"color":"#57068C","secondary":"Your device is eligible for a data plan, starting at only $18.99\/m. Tap to use without WiFi","target":"us"},{"id":"promo","interval":1,"color":"#57068C","primary":"Phones from $4.99","secondary":"Don't miss out on all the deals!","target":"us","url":"https:\/\/www.textnow.com\/wireless?utm_source=android&utm_medium=banner&utm_content=mothersday_general&utm_campaign=mothersday"}],"banners":[{"id":"delinquent","color":"#c81442","secondary":"Your credit card payment was declined and your account has been suspended. To avoid cancellation, tap to update your card details."},{"id":"reactivate","color":"#c81442","secondary":"Your wireless plan is inactive. You can still reactivate your plan. Tap for more information."},{"id":"data_usage","interval":1,"color":"#c81442","secondary":"You have used %1$s of data in your plan.\nTap here to upgrade your plan."},{"id":"activate","interval":2,"color":"#57068C","secondary":"Your device is eligible for a data plan, starting at only $18.99\/m. Tap to use without WiFi","target":"us"},{"id":"data_suspended","color":"#c81442","secondary":"You have used up your data.\nYour device can be used on WiFi.\nUpgrade your plan to get more data."},{"id":"data_throttled","color":"#c81442","secondary":"You used up your high speed data.\nYour device is now at 2G speed.\nUpgrade your plan to get more."},{"id":"data_throttle_warning","interval":1,"color":"#c81442","secondary":"You used %1$s of your data.\nUpgrade to get more data and avoid slowing down to 2G speed."},{"id":"promo","interval":1,"color":"#57068C","primary":"No contract phones from $4.99","secondary":"Cheap phones, no tax, no contracts, free shipping!","target":"us","url":"https:\/\/www.textnow.com\/wireless?utm_source=android&utm_medium=banner&utm_content=999_phone&utm_campaign=999_phone&username=%s&token=%s"}],"banner_message":{"interval":1,"color":"#57068C","primary":"No contract phones from $4.99","secondary":"Cheap phones, no tax, no contracts, free shipping!","target":"us","url":"https:\/\/www.textnow.com\/wireless?utm_source=android&utm_medium=banner&utm_content=999_phone&utm_campaign=999_phone"},"cdma_use_aggressive":true,"vessel_enabled":false,
+2016-07-22 04:06:49.202+0000 1899 AbstractHttpCommand/D "offerwall":"tapjoy","offerwall_use_all":true,"debug_logs":{"enabled":true,"anr_detection":8},"native_ads":{"enable_native_ads":true,"conversation_list":{"enabled":true},"in_call":{"enabled":true},"outgoing_call_message":{"enabled":true},"native_ads_rollout":5,"native_ad_interval":65,"default_native_ad":{"headline":"Phones from $4.99! Limited Time!","summary":"Cheap phones, no tax, no contracts, free shipping!","avatar":"http:\/\/static.textnow.com\/appassets\/avatar_message_tax.jpg","click_url":"https:\/\/www.textnow.com\/wireless?utm_source=android&utm_medium=native&utm_content=999_general&utm_campaign=999_phone&username=%s&token=%s"}},"promo_campaign_ad":{"enabled":true,"id":"78","headline":"Moto E 4G phone for $4.99!","summary":"Cheap phones from $4.99, no tax, no contracts, free shipping!","avatar":"http:\/\/static.textnow.com\/appassets\/avatar_message.jpg","action_bar_text":"Moto E 4G phone for $4.99!","action_bar_text_color":"#FFFFFF","action_bar_color":"#4F98F6","image":"http:\/\/static.textnow.com\/appassets\/a1_fsnc2_sale_native_ad_720.jpg","text":"View Deals","text_color":"#FFFFFF","button_color":"#F43375","button_radius":50,"background_fill":"#FFFFFF","click_url":"https:\/\/www.textnow.com\/wireless?utm_source=android&utm_medium=native&utm_content=scsale_general&utm_campaign=scsale_phone&username=%s&token=%s"},"call_monitor":{"wifi_to_data":{"rollout":1000,"total":1000},"data_to_cdma":{"rollout":1000,"total":1000},"thresholds":{"mos":3,"window_size":5,"max_samples_below_threshold":5},"thresholds_v2":{"mos":2.9,"window_size":5,"max_samples_below_threshold":5},"thresholds_v3":{"mos":2.8,"window_size":10,"max_samples_below_threshold":10,"num_mos_samples_to_skip_after_transition":10},"in_call_update_timer":500,"pre_transition_qos_test_enabled":true},"qos_test":{"used":{"rollout":1000,"total":1000},"enabled":{"rollout":1000,"total":1000},"max_packet_loss":0,"max_jitter":11000,"backend":"https:\/\/qos.textnow.me"},"qos_test_v2":{"used":{"rollout":1000,"total":1000},"enabled":{"rollout":1000,"total":1000},"max_packet_loss":0,"max_jitter":11000,"backend":"https:\/\/qos.textnow.me"},"qos_heartbeat":{"target_percentage":{"rollout":1,"total":1000},"threshold":5,"window_size":5,"rx_timeout":1800},"qos_heartbeat_v2":{"target_percentage":{"rollout":1000,"total":1000},"threshold":5,"window_size":10,"rx_timeout":1800},"gcm_heartbeat":{"target_usernames":".","interval":5},"ad_settings":{"keyboard_ad_frequency_cap_ms":28800000,"keyboard_ad_max_shows_per_day":3,"call_end_interstitial_required_call_length_seconds":20},"wifi_to_data_non_subscribers":{"target_percentage":{"rollout":1000,"total":1000},"target_usernames":"."}}}
+2016-07-22 04:06:49.239+0000 1899 AbstractHttpCommand/I SettingsGet request completed
+2016-07-22 04:06:49.381+0000 1899 AbstractHttpCommand/I UsersGet response ok
+2016-07-22 04:06:49.389+0000 1899 AbstractHttpCommand/D UsersGet response: {"username":"ginat86","expiry":"2016-07-12","email":"ginala1214@gmail.com","email_verified":0,"first_name":"GIna","last_name":"T","dob":"1987-01-01","captcha_required":false,"gender":2,"last_update":"2016-07-21","ringtone":"","signature":"","show_text_previews":true,"forward_messages":0,"incentivized_share_date_twitter":"0000-00-00","incentivized_share_date_facebook":"0000-00-00","credits":5,"timestamp":"2016-07-20T21:29:25Z","purchases_timestamp":"0000-00-00T00:00:00Z","has_password":true,"phone_number":"7026023329","phone_assigned_date":"2016-07-05","phone_last_unassigned":"0000-00-00","sip":{"id":2,"host":"enflick.layered.net","username":"17026023329_mCBkLu10eKHuNdgMrGi2CTH6knsDyimIkYnm0CBFTjN","password":"f3013f3dcdaf2fb30cce21c0a9ba1b03","proxy":"","stun":"","voicemail_url":"https:\/\/s3.amazonaws.com\/TN-Prod-VoicemailGreetings\/038ee99f74deec3be433fb662f4cb5adb95e6d751703ed8b7b652fc22a6de26e.wav"},"disable_calling":"0","mytempnumber_dnd":false,"sip_minutes":5,"sip_IP":"enflick.layered.net","mytempnumber_voicemail_upload_url":"https:\/\/api.textnow.me\/api2.0\/voicemail","sip_username":"17026023329_mCBkLu10eKHuNdgMrGi2CTH6knsDyimIkYnm0CBFTjN","sip_password":"f3013f3dcdaf2fb30cce21c0a9ba1b03","mytempnumber_voicemail_v2":1,"mytempnumber_status":0,"mytempnumber_expiry":"0000-00-00","features":{"cdma_fallback":false},"forwarding_expiry":"0000-00-00","forwarding_status":"1","premium_calling":false,"forwarding_number":"","voicemail":"1","voicemail_timestamp":"0000-00-00T00:00:00Z","show_ads":true,"is_persistent":true,"mytempnumber_free_calling":1,"incentivized_share_date":"0000-00-00","append_footer":0,"ads_autorenew":"0","voice_autorenew":"0","forward_email":"ginala1214@gmail.com","mytempnumber_voicemail":true,"phone_expiry":"2016-07-12","area_code":null,"unlimited_calling":true,"ad_categories":[]}
+2016-07-22 04:06:49.413+0000 1899 AbstractHttpCommand/I UsersGet request completed
+2016-07-22 04:06:49.426+0000 1899 TNTaskService/I Starting to run task (5):ReportIdfaTask
+2016-07-22 04:06:49.520+0000 1899 TNTaskService/I Starting to run task (6):GetBlockedContactsTask
+2016-07-22 04:06:49.531+0000 1899 AbstractHttpCommand/I BlocksGet request made
+2016-07-22 04:06:49.582+0000 1899 AbstractHttpCommand/D BlocksGet URI: https://api.textnow.me/api2.0/blocks?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=f0c42056b1375740f28530d9f7de8fe2
+2016-07-22 04:06:49.613+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:49.630+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:49.659+0000 1899 TNTaskService/I Finished running task (1):GetUserInfoTask
+2016-07-22 04:06:49.777+0000 1899 AbstractHttpCommand/I BlocksGet response ok
+2016-07-22 04:06:49.778+0000 1899 AbstractHttpCommand/D BlocksGet response: {"result":[{"contact_username":null,"contact_e164":null,"contact_email":"nonic84@gmail.com"}],"error_code":null}
+2016-07-22 04:06:49.780+0000 1899 AbstractHttpCommand/I BlocksGet request completed
+2016-07-22 04:06:49.868+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting codec order to: 105,3,102,0,8,9
+2016-07-22 04:06:49.880+0000 1899 GetSettingsTask/D TNSettingsInfo	setting vessel enabled to: false
+2016-07-22 04:06:49.892+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting ping threshold to: 235ms
+2016-07-22 04:06:49.902+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting bandwidth threshold to: 55kB/s
+2016-07-22 04:06:49.904+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting download timeout to: 550ms
+2016-07-22 04:06:49.909+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting test file url: http://speedtest.textnow.me/100k
+2016-07-22 04:06:49.912+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting max ping threshold to: 260ms
+2016-07-22 04:06:49.922+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting min ping threshold to: 190ms
+2016-07-22 04:06:49.935+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting max bandwidth threshold to: 85ms
+2016-07-22 04:06:49.938+0000 1899 GetSettingsTask/D TNSettingsInfo	Setting min bandwidth threshold to: 40ms
+2016-07-22 04:06:50.770+0000 1899 GetSettingsTask/D Found GCM heartbeat configurations.
+2016-07-22 04:06:50.773+0000 1899 GetSettingsTask/D User 'ginat86' is within test criteria, enabling service with interval set to 5 minutes.
+2016-07-22 04:06:50.777+0000 1899 GetSettingsTask/D Found QOS heartbeat configurations.
+2016-07-22 04:06:50.779+0000 1899 GetSettingsTask/D Set call state machine parameters to 2.900000, 5, 5
+2016-07-22 04:06:50.782+0000 1899 TNTaskService/I Finished running task (4):GetSettingsTask
+2016-07-22 04:06:50.806+0000 1899 GetBlockedContactsTask/D 1 blocking rules were retrieved
+2016-07-22 04:06:50.807+0000 1899 TNTaskService/I Finished running task (6):GetBlockedContactsTask
+2016-07-22 04:06:51.927+0000 1899 TNTaskService/I Starting to run task (7):GetGroupsTask
+2016-07-22 04:06:51.929+0000 1899 TNTaskService/I Starting to run task (8):GetSubscriptionTask
+2016-07-22 04:06:51.938+0000 1899 AbstractHttpCommand/I GroupsGet request made
+2016-07-22 04:06:51.999+0000 1899 AbstractHttpCommand/D GroupsGet URI: https://api.textnow.me/api2.0/users/ginat86/groups?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=fed896231fe470741ffd33c28562d918
+2016-07-22 04:06:52.003+0000 1899 AbstractHttpCommand/I SubscriptionGet request made
+2016-07-22 04:06:52.005+0000 1899 AbstractHttpCommand/D SubscriptionGet URI: https://api.textnow.me/api2.0/users/ginat86/subscription?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=06c565f8d22d13409cb4b53f33b9d0e6
+2016-07-22 04:06:52.007+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:52.008+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:52.015+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:52.026+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:52.063+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:GetUserInfoTask taskId:1 errorOccurred:false statusCode:200 errorCode:null
+2016-07-22 04:06:52.077+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:GetSettingsTask taskId:4 errorOccurred:false statusCode:200 errorCode:null
+2016-07-22 04:06:52.084+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:GetBlockedContactsTask taskId:6 errorOccurred:false statusCode:200 errorCode:null
+2016-07-22 04:06:52.103+0000 1899 d/D IabHelper	Billing service connected.
+2016-07-22 04:06:52.105+0000 1899 d/D IabHelper	Checking for in-app billing 3 support.
+2016-07-22 04:06:52.130+0000 1899 TNTaskService/I Finished running task (5):ReportIdfaTask
+2016-07-22 04:06:52.185+0000 1899 AbstractHttpCommand/I SubscriptionGet response error, status: 422
+2016-07-22 04:06:52.186+0000 1899 AbstractHttpCommand/D SubscriptionGet response: {"error_code":"NOT_FOUND"}
+2016-07-22 04:06:52.194+0000 1899 AbstractHttpCommand/I GroupsGet response ok
+2016-07-22 04:06:52.199+0000 1899 AbstractHttpCommand/D GroupsGet response: []
+2016-07-22 04:06:52.202+0000 1899 AbstractHttpCommand/I GroupsGet request completed
+2016-07-22 04:06:52.211+0000 1899 AbstractHttpCommand/I SubscriptionGet request completed
+2016-07-22 04:06:52.224+0000 1899 TNHttpCommand/I SubscriptionGet ERROR - requestID:null code:422 error: NOT_FOUND
+2016-07-22 04:06:52.236+0000 1899 TNTaskService/I Finished running task (7):GetGroupsTask
+2016-07-22 04:06:52.241+0000 1899 TNTaskService/I Finished running task (8):GetSubscriptionTask
+2016-07-22 04:06:52.460+0000 1899 d/D IabHelper	In-app billing version 3 supported for com.enflick.android.TextNow
+2016-07-22 04:06:52.465+0000 1899 k/D In-app billing setup finished.
+2016-07-22 04:06:52.467+0000 1899 k/D Setup successful. Querying inventory.
+2016-07-22 04:06:52.474+0000 1899 d/D IabHelper	Starting async operation: refresh inventory
+2016-07-22 04:06:52.515+0000 1899 d/D IabHelper	Querying owned items...
+2016-07-22 04:06:52.526+0000 1899 d/D IabHelper	Package name: com.enflick.android.TextNow
+2016-07-22 04:06:52.528+0000 1899 d/D IabHelper	Calling getPurchases with continuation token: null
+2016-07-22 04:06:52.546+0000 1899 d/D IabHelper	Owned items response: 0
+2016-07-22 04:06:52.548+0000 1899 d/D IabHelper	Continuation token: null
+2016-07-22 04:06:52.550+0000 1899 d/D IabHelper	Querying SKU details.
+2016-07-22 04:06:53.515+0000 1899 MainActivity/D Tapjoy connected
+2016-07-22 04:06:53.521+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:ReportIdfaTask taskId:5 errorOccurred:false statusCode:-1 errorCode:null
+2016-07-22 04:06:53.529+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:GetGroupsTask taskId:7 errorOccurred:false statusCode:200 errorCode:null
+2016-07-22 04:06:53.536+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:GetSubscriptionTask taskId:8 errorOccurred:true statusCode:422 errorCode:NOT_FOUND
+2016-07-22 04:06:53.624+0000 1899 a/D MoPub	Loading custom event adapter.
+2016-07-22 04:06:53.652+0000 1899 a/D MoPub	Attempting to invoke custom event: com.mopub.mobileads.HtmlBanner
+2016-07-22 04:06:53.912+0000 1899 TNActivityBase/D TextNow	WelcomeActivity on destroy: unregister receiver
+2016-07-22 04:06:59.593+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:06:59.613+0000 1899 TNTaskService/I Queuing task (0):GetFeatureTogglesTask
+2016-07-22 04:06:59.641+0000 1899 TNTaskService/I Starting to run task (0):GetFeatureTogglesTask
+2016-07-22 04:06:59.673+0000 1899 AbstractHttpCommand/I FeatureTogglesVersionGet request made
+2016-07-22 04:06:59.674+0000 1899 AbstractHttpCommand/D FeatureTogglesVersionGet URI: https://features.textnow.com/api/v1/platforms/android/version?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=0bdf39e4b062f0ad331d6f9fd8f76887
+2016-07-22 04:06:59.676+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:06:59.681+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:06:59.728+0000 1899 a/D MoPub	Ad event URL: mopub://finishLoad
+2016-07-22 04:06:59.730+0000 1899 a/D MoPub	adLoaded
+2016-07-22 04:06:59.737+0000 1899 a/D Adjust event tracked: banner_loaded	With revenue: 3.0E-4	In currency: USD
+2016-07-22 04:06:59.746+0000 1899 a/D MoPub	Refresh disabled for ad unit (22f25a4a812711e295fa123138070049).
+2016-07-22 04:06:59.749+0000 1899 a/D MoPub	Refresh enabled for ad unit (22f25a4a812711e295fa123138070049).
+2016-07-22 04:07:00.425+0000 1899 AbstractHttpCommand/I FeatureTogglesVersionGet response ok
+2016-07-22 04:07:00.465+0000 1899 AbstractHttpCommand/D FeatureTogglesVersionGet response: {"id":2,"name":"android","enabled":true,"features_version":"2162267533"}
+2016-07-22 04:07:00.490+0000 1899 AbstractHttpCommand/I FeatureTogglesVersionGet request completed
+2016-07-22 04:07:00.498+0000 1899 TNTaskService/I Finished running task (0):GetFeatureTogglesTask
+2016-07-22 04:07:01.064+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:07:01.070+0000 1899 TNTaskService/I Queuing task (9):DeleteConversationTask
+2016-07-22 04:07:01.101+0000 1899 d/D IabHelper	Got sku details: SkuDetails:{"productId":"10_dollars_international_credit","type":"inapp","price":"$10.00","price_amount_micros":10000000,"price_currency_code":"USD","title":"$10 of International Credit (TextNow - free text + calls)","description":"International Credit is used to make International Long Distance calls."}
+2016-07-22 04:07:01.103+0000 1899 d/D IabHelper	Got sku details: SkuDetails:{"productId":"20_dollars_international_credit","type":"inapp","price":"$20.00","price_amount_micros":20000000,"price_currency_code":"USD","title":"$20 of International Credit (TextNow - free text + calls)","description":"International Credit is used to make International Long Distance Calls."}
+2016-07-22 04:07:01.126+0000 1899 d/D IabHelper	Got sku details: SkuDetails:{"productId":"5_dollars_international_credit","type":"inapp","price":"$5.00","price_amount_micros":5000000,"price_currency_code":"USD","title":"$5 of International Credit (TextNow - free text + calls)","description":"International Credit is used to make International Long Distance calls."}
+2016-07-22 04:07:01.130+0000 1899 d/D IabHelper	Got sku details: SkuDetails:{"productId":"adremoval1month","type":"inapp","price":"$0.99","price_amount_micros":990000,"price_currency_code":"USD","title":"Ad Removal 1 Month (TextNow - free text + calls)","description":"Remove ads for 1 month."}
+2016-07-22 04:07:01.132+0000 1899 d/D IabHelper	Got sku details: SkuDetails:{"productId":"adremoval1year","type":"inapp","price":"$5.99","price_amount_micros":5990000,"price_currency_code":"USD","title":"Ad Removal 1 Year (TextNow - free text + calls)","description":"Remove ads for 1 year."}
+2016-07-22 04:07:01.155+0000 1899 d/D IabHelper	Got sku details: SkuDetails:{"productId":"callforwarding1month","type":"inapp","price":"$2.99","price_amount_micros":2990000,"price_currency_code":"USD","title":"Premium 1 Month (TextNow - free text + calls)","description":"Enable TexNow Premium for 1 month."}
+2016-07-22 04:07:01.157+0000 1899 d/D IabHelper	Got sku details: SkuDetails:{"productId":"callforwarding1year","type":"inapp","price":"$29.99","price_amount_micros":29990000,"price_currency_code":"USD","title":"Premium 1 Year (TextNow - free text + calls)","description":"Enable TextNow Premium for 1 year."}
+2016-07-22 04:07:01.166+0000 1899 d/D IabHelper	Ending async operation: refresh inventory
+2016-07-22 04:07:01.180+0000 1899 TNTaskService/I Starting to run task (9):DeleteConversationTask
+2016-07-22 04:07:01.188+0000 1899 AbstractHttpCommand/I ConversationsDelete request made
+2016-07-22 04:07:01.189+0000 1899 AbstractHttpCommand/D ConversationsDelete URI: https://api.textnow.me/api2.0/users/ginat86/conversations/%2B17026261822?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=c47fdfad92ef14330ad89a1aee70563e
+2016-07-22 04:07:01.191+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:07:01.193+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:07:01.398+0000 1899 k$2/D k	Query inventory finished.
+2016-07-22 04:07:01.400+0000 1899 k$2/D k	Query inventory was successful.
+2016-07-22 04:07:01.647+0000 1899 a/D NotificationHelper	not on samsung device, ignore badge count
+2016-07-22 04:07:01.649+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:07:01.662+0000 1899 TNTaskService/I Queuing task (10):SetRegistrationIdTask
+2016-07-22 04:07:01.729+0000 1899 AbstractHttpCommand/I ConversationsDelete response ok
+2016-07-22 04:07:01.732+0000 1899 AbstractHttpCommand/D ConversationsDelete response: 3
+2016-07-22 04:07:01.735+0000 1899 AbstractHttpCommand/I ConversationsDelete request completed
+2016-07-22 04:07:01.738+0000 1899 TNTaskService/I Finished running task (9):DeleteConversationTask
+2016-07-22 04:07:01.740+0000 1899 TNActivityBase/I TextNow	MainActivity received BROADCAST task:DeleteConversationTask taskId:9 errorOccurred:false statusCode:200 errorCode:null
+2016-07-22 04:07:01.773+0000 1899 TNTaskService/I Starting to run task (10):SetRegistrationIdTask
+2016-07-22 04:07:01.786+0000 1899 TNHttpCommand/V SessionPut request body: {"app_version":"4.17.2","esn":"354754076880206","os_version":"19","push_token":"eDQ2CHi41No:APA91bHSs7e54ZOiHpxhmYFFbTMxPzX_vImvJ8PVnZR7oIDmGLfXdCLU3_e9UoQ8Jsq9k1lIhzMlROr5cOp4hd0NVsoL83wEqLNFQBsJBQSapQ_rgYegJvx6fe5OhWXwoZOK2t5LIiT3"}
+2016-07-22 04:07:01.788+0000 1899 AbstractHttpCommand/I SessionPut request made
+2016-07-22 04:07:01.789+0000 1899 AbstractHttpCommand/D SessionPut URI: https://api.textnow.me/api2.0/sessions?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=b3315c164b2b24043d0dd8aaee49d094
+2016-07-22 04:07:01.791+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:07:01.792+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:07:01.953+0000 1899 AbstractHttpCommand/I SessionPut response ok
+2016-07-22 04:07:01.955+0000 1899 AbstractHttpCommand/D SessionPut response: []
+2016-07-22 04:07:01.956+0000 1899 AbstractHttpCommand/I SessionPut request completed
+2016-07-22 04:07:01.962+0000 1899 TNTaskService/I Finished running task (10):SetRegistrationIdTask
+2016-07-22 04:07:01.990+0000 1899 z/D MainControllerOnePane	onBackPressed
+2016-07-22 04:07:01.993+0000 1899 z/D i	Handling back button press.
+2016-07-22 04:07:02.031+0000 1899 MainActivity/V MainControllerBase	onActivityPause
+2016-07-22 04:07:02.035+0000 1899 a/D MoPub	Refresh disabled for ad unit (22f25a4a812711e295fa123138070049).
+2016-07-22 04:07:03.899+0000 1899 a/D Records submitted
+2016-07-22 04:07:03.917+0000 1899 g/D Retrieved 1 blocked contact values from database
+2016-07-22 04:07:03.940+0000 1899 a/D Ad Tracker Record saved: {"experiment_name":"","keywords":"m_app_version:4.17.2,m_platform:android","gaid":"07843060-403d-4556-989e-6fd467b99145","experiment_id":"","ad_platform":"","ad_format":"320x50","ad_placement":"","ad_network":"HTML","timestamp":"2016-07-22 04:07:00","mac_address":"60:fe:1e:7f:a1:0f","android_id":"ef283202a971a7e8","ip_address":"","username":"ginat86","ad_name":"","client_type":"TN_ANDROID","ad_type":"Banner","experiment_variant":"","client_version":"4.17.2"}
+2016-07-22 04:07:04.039+0000 1899 MainActivity/V MainControllerBase	onActivityStop
+2016-07-22 04:07:04.041+0000 1899 MainActivity/V MainControllerBase	onActivityDestroy
+2016-07-22 04:07:04.051+0000 1899 TNActivityBase/D TextNow	MainActivity on destroy: unregister receiver
+2016-07-22 04:07:04.123+0000 1899 g/D MopubUtil	mark HtmlBanner pending invalidate
+2016-07-22 04:07:04.125+0000 1899 o/D PhotoManager	clear
+2016-07-22 04:07:04.129+0000 1899 d/D IabHelper	Disposing.
+2016-07-22 04:07:04.140+0000 1899 d/D IabHelper	Unbinding from service.
+2016-07-22 04:07:57.758+0000 1899 TNPullService/D Auto pulling messages
+2016-07-22 04:07:57.932+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 60 seconds
+2016-07-22 04:07:57.937+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:07:57.954+0000 1899 TNTaskService/I Queuing task (11):GetNewMessagesTask
+2016-07-22 04:07:57.966+0000 1899 TNTaskService/I Starting to run task (11):GetNewMessagesTask
+2016-07-22 04:07:58.106+0000 1899 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 04:07:58.110+0000 1899 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 04:07:58.111+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:07:58.113+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:07:58.813+0000 1899 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 04:07:58.815+0000 1899 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 04:07:58.839+0000 1899 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 04:07:58.849+0000 1899 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 04:07:58.994+0000 1899 TNTaskService/I Finished running task (11):GetNewMessagesTask
+2016-07-22 04:09:01.672+0000 1899 TNPullService/D Auto pulling messages
+2016-07-22 04:09:01.880+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 120 seconds
+2016-07-22 04:09:01.889+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:09:01.921+0000 1899 TNTaskService/I Queuing task (12):GetNewMessagesTask
+2016-07-22 04:09:01.930+0000 1899 TNTaskService/I Starting to run task (12):GetNewMessagesTask
+2016-07-22 04:09:02.076+0000 1899 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 04:09:02.077+0000 1899 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 04:09:02.079+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:09:02.082+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:09:02.743+0000 1899 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 04:09:02.745+0000 1899 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 04:09:02.746+0000 1899 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 04:09:02.753+0000 1899 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 04:09:02.773+0000 1899 TNTaskService/I Finished running task (12):GetNewMessagesTask
+2016-07-22 04:11:10.775+0000 1899 TNPullService/D Auto pulling messages
+2016-07-22 04:11:10.803+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:11:10.807+0000 1899 TNTaskService/I Queuing task (13):GetNewMessagesTask
+2016-07-22 04:11:10.814+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 240 seconds
+2016-07-22 04:11:10.820+0000 1899 TNTaskService/I Starting to run task (13):GetNewMessagesTask
+2016-07-22 04:11:10.872+0000 1899 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 04:11:10.874+0000 1899 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 04:11:10.875+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:11:10.877+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:11:11.418+0000 1899 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 04:11:11.420+0000 1899 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 04:11:11.422+0000 1899 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 04:11:11.428+0000 1899 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 04:11:11.442+0000 1899 TNTaskService/I Finished running task (13):GetNewMessagesTask
+2016-07-22 04:15:12.042+0000 1899 TNPullService/D Auto pulling messages
+2016-07-22 04:15:12.063+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 480 seconds
+2016-07-22 04:15:12.066+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:15:12.079+0000 1899 TNTaskService/I Queuing task (14):GetNewMessagesTask
+2016-07-22 04:15:12.082+0000 1899 TNTaskService/I Starting to run task (14):GetNewMessagesTask
+2016-07-22 04:15:12.100+0000 1899 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 04:15:12.102+0000 1899 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 04:15:12.104+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:15:12.105+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:15:12.877+0000 1899 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 04:15:12.880+0000 1899 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 04:15:12.882+0000 1899 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 04:15:12.889+0000 1899 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 04:15:12.895+0000 1899 TNTaskService/I Finished running task (14):GetNewMessagesTask
+2016-07-22 04:23:40.151+0000 1899 TNPullService/D Auto pulling messages
+2016-07-22 04:23:40.173+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 960 seconds
+2016-07-22 04:23:40.176+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:23:40.180+0000 1899 TNTaskService/I Queuing task (15):GetNewMessagesTask
+2016-07-22 04:23:40.185+0000 1899 TNTaskService/I Starting to run task (15):GetNewMessagesTask
+2016-07-22 04:23:40.208+0000 1899 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 04:23:40.211+0000 1899 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 04:23:40.213+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:23:40.215+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:23:40.726+0000 1899 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 04:23:40.727+0000 1899 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 04:23:40.729+0000 1899 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 04:23:40.735+0000 1899 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 04:23:40.746+0000 1899 TNTaskService/I Finished running task (15):GetNewMessagesTask
+2016-07-22 04:39:57.634+0000 1899 TNPullService/D Auto pulling messages
+2016-07-22 04:39:57.724+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 1920 seconds
+2016-07-22 04:39:57.730+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 04:39:57.740+0000 1899 TNTaskService/I Queuing task (16):GetNewMessagesTask
+2016-07-22 04:39:57.749+0000 1899 TNTaskService/I Starting to run task (16):GetNewMessagesTask
+2016-07-22 04:39:57.919+0000 1899 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 04:39:57.921+0000 1899 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 04:39:57.989+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 04:39:57.991+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 04:39:58.658+0000 1899 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 04:39:58.660+0000 1899 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 04:39:58.661+0000 1899 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 04:39:58.670+0000 1899 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 04:39:59.146+0000 1899 TNTaskService/I Finished running task (16):GetNewMessagesTask
+2016-07-22 05:12:04.384+0000 1899 TNPullService/D Auto pulling messages
+2016-07-22 05:12:04.556+0000 1899 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 05:12:04.571+0000 1899 TNTaskService/I Start process new task..
+2016-07-22 05:12:04.593+0000 1899 TNTaskService/I Queuing task (17):GetNewMessagesTask
+2016-07-22 05:12:04.600+0000 1899 TNTaskService/I Starting to run task (17):GetNewMessagesTask
+2016-07-22 05:12:04.649+0000 1899 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 05:12:04.653+0000 1899 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 05:12:04.655+0000 1899 AbstractHttpCommand/D Headers:
+2016-07-22 05:12:04.658+0000 1899 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 05:12:05.427+0000 1899 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 05:12:05.428+0000 1899 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 05:12:32.476+0000 12024 TextNowApp/D e	ANR detection time: 8000 msec
+2016-07-22 05:12:32.662+0000 12024 a/D Initializing acrobits client
+2016-07-22 05:12:34.321+0000 12024 a/I Acrobits register SipAccount called
+2016-07-22 05:12:34.428+0000 12024 a/D Saved account: TextNow SIP Account
+2016-07-22 05:12:34.454+0000 12024 a/D onNetworkChangeDetected - WiFi
+2016-07-22 05:12:34.456+0000 12024 a/D Initialized softphone
+2016-07-22 05:12:34.761+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469164354754, with interval of 5 minutes.
+2016-07-22 05:12:34.762+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:12:34.768+0000 12024 PushHeartbeatService/D Service execution completed at 1469164354768(ms), restarting at 1469164654768(ms)
+2016-07-22 05:12:34.787+0000 12024 a/D Registration state changed. isRegistered: false
+2016-07-22 05:17:35.057+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469164655057, with interval of 5 minutes.
+2016-07-22 05:17:35.062+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:17:35.068+0000 12024 PushHeartbeatService/D Service execution completed at 1469164655067(ms), restarting at 1469164955067(ms)
+2016-07-22 05:22:35.086+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469164955086, with interval of 5 minutes.
+2016-07-22 05:22:35.087+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:22:35.180+0000 12024 PushHeartbeatService/D Service execution completed at 1469164955179(ms), restarting at 1469165255179(ms)
+2016-07-22 05:27:35.256+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469165255255, with interval of 5 minutes.
+2016-07-22 05:27:35.257+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:27:35.375+0000 12024 PushHeartbeatService/D Service execution completed at 1469165255374(ms), restarting at 1469165555374(ms)
+2016-07-22 05:32:35.814+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469165555689, with interval of 5 minutes.
+2016-07-22 05:32:35.819+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:32:35.832+0000 12024 PushHeartbeatService/D Service execution completed at 1469165555827(ms), restarting at 1469165855827(ms)
+2016-07-22 05:37:45.838+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469165865674, with interval of 5 minutes.
+2016-07-22 05:37:45.840+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:37:45.856+0000 12024 PushHeartbeatService/D Service execution completed at 1469165865855(ms), restarting at 1469166165855(ms)
+2016-07-22 05:42:54.773+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469166174772, with interval of 5 minutes.
+2016-07-22 05:42:54.775+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:42:57.023+0000 12024 PushHeartbeatService/D Service execution completed at 1469166177022(ms), restarting at 1469166477022(ms)
+2016-07-22 05:47:58.294+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469166478144, with interval of 5 minutes.
+2016-07-22 05:47:58.295+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:47:58.348+0000 12024 PushHeartbeatService/D Service execution completed at 1469166478347(ms), restarting at 1469166778347(ms)
+2016-07-22 05:53:06.323+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469166786315, with interval of 5 minutes.
+2016-07-22 05:53:06.328+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:53:06.350+0000 12024 PushHeartbeatService/D Service execution completed at 1469166786350(ms), restarting at 1469167086350(ms)
+2016-07-22 05:58:07.046+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469167087045, with interval of 5 minutes.
+2016-07-22 05:58:07.049+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 05:58:07.055+0000 12024 PushHeartbeatService/D Service execution completed at 1469167087054(ms), restarting at 1469167387054(ms)
+2016-07-22 06:03:07.348+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469167387348, with interval of 5 minutes.
+2016-07-22 06:03:07.350+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:03:07.527+0000 12024 PushHeartbeatService/D Service execution completed at 1469167387526(ms), restarting at 1469167687526(ms)
+2016-07-22 06:08:07.550+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469167687549, with interval of 5 minutes.
+2016-07-22 06:08:07.558+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:08:07.573+0000 12024 PushHeartbeatService/D Service execution completed at 1469167687573(ms), restarting at 1469167987572(ms)
+2016-07-22 06:13:07.601+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469167987600, with interval of 5 minutes.
+2016-07-22 06:13:07.603+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:13:07.607+0000 12024 PushHeartbeatService/D Service execution completed at 1469167987606(ms), restarting at 1469168287606(ms)
+2016-07-22 06:18:14.304+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469168294284, with interval of 5 minutes.
+2016-07-22 06:18:14.306+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:18:14.357+0000 12024 PushHeartbeatService/D Service execution completed at 1469168294357(ms), restarting at 1469168594356(ms)
+2016-07-22 06:23:16.269+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469168596268, with interval of 5 minutes.
+2016-07-22 06:23:16.275+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:23:16.299+0000 12024 PushHeartbeatService/D Service execution completed at 1469168596286(ms), restarting at 1469168896284(ms)
+2016-07-22 06:28:17.043+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469168897042, with interval of 5 minutes.
+2016-07-22 06:28:17.045+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:28:17.061+0000 12024 PushHeartbeatService/D Service execution completed at 1469168897060(ms), restarting at 1469169197060(ms)
+2016-07-22 06:33:17.283+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469169197229, with interval of 5 minutes.
+2016-07-22 06:33:17.285+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:33:17.295+0000 12024 PushHeartbeatService/D Service execution completed at 1469169197294(ms), restarting at 1469169497294(ms)
+2016-07-22 06:38:17.387+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469169497386, with interval of 5 minutes.
+2016-07-22 06:38:17.388+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:38:17.528+0000 12024 PushHeartbeatService/D Service execution completed at 1469169497527(ms), restarting at 1469169797527(ms)
+2016-07-22 06:43:17.662+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469169797661, with interval of 5 minutes.
+2016-07-22 06:43:17.664+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:43:17.810+0000 12024 PushHeartbeatService/D Service execution completed at 1469169797809(ms), restarting at 1469170097809(ms)
+2016-07-22 06:48:17.830+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469170097829, with interval of 5 minutes.
+2016-07-22 06:48:17.831+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:48:18.011+0000 12024 PushHeartbeatService/D Service execution completed at 1469170098011(ms), restarting at 1469170398011(ms)
+2016-07-22 06:53:21.859+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469170401859, with interval of 5 minutes.
+2016-07-22 06:53:21.862+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:53:22.090+0000 12024 PushHeartbeatService/D Service execution completed at 1469170402089(ms), restarting at 1469170702089(ms)
+2016-07-22 06:58:22.240+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469170702240, with interval of 5 minutes.
+2016-07-22 06:58:22.243+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 06:58:22.341+0000 12024 PushHeartbeatService/D Service execution completed at 1469170702341(ms), restarting at 1469171002341(ms)
+2016-07-22 07:03:29.695+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469171009694, with interval of 5 minutes.
+2016-07-22 07:03:29.696+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:03:30.031+0000 12024 PushHeartbeatService/D Service execution completed at 1469171010030(ms), restarting at 1469171310030(ms)
+2016-07-22 07:08:30.153+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469171310153, with interval of 5 minutes.
+2016-07-22 07:08:30.155+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:08:30.279+0000 12024 PushHeartbeatService/D Service execution completed at 1469171310231(ms), restarting at 1469171610231(ms)
+2016-07-22 07:13:30.288+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469171610287, with interval of 5 minutes.
+2016-07-22 07:13:30.404+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:13:30.490+0000 12024 PushHeartbeatService/D Service execution completed at 1469171610489(ms), restarting at 1469171910489(ms)
+2016-07-22 07:18:30.518+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469171910518, with interval of 5 minutes.
+2016-07-22 07:18:30.527+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:18:30.719+0000 12024 PushHeartbeatService/D Service execution completed at 1469171910719(ms), restarting at 1469172210719(ms)
+2016-07-22 07:23:30.732+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469172210732, with interval of 5 minutes.
+2016-07-22 07:23:30.734+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:23:30.738+0000 12024 PushHeartbeatService/D Service execution completed at 1469172210737(ms), restarting at 1469172510737(ms)
+2016-07-22 07:28:30.888+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469172510880, with interval of 5 minutes.
+2016-07-22 07:28:30.889+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:28:30.980+0000 12024 PushHeartbeatService/D Service execution completed at 1469172510980(ms), restarting at 1469172810980(ms)
+2016-07-22 07:33:31.137+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469172811136, with interval of 5 minutes.
+2016-07-22 07:33:31.138+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:33:31.306+0000 12024 PushHeartbeatService/D Service execution completed at 1469172811305(ms), restarting at 1469173111305(ms)
+2016-07-22 07:38:31.323+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469173111322, with interval of 5 minutes.
+2016-07-22 07:38:31.325+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:38:31.351+0000 12024 PushHeartbeatService/D Service execution completed at 1469173111350(ms), restarting at 1469173411350(ms)
+2016-07-22 07:43:31.369+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469173411368, with interval of 5 minutes.
+2016-07-22 07:43:31.370+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:43:31.720+0000 12024 PushHeartbeatService/D Service execution completed at 1469173411719(ms), restarting at 1469173711719(ms)
+2016-07-22 07:48:38.552+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469173718551, with interval of 5 minutes.
+2016-07-22 07:48:38.771+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:48:38.841+0000 12024 PushHeartbeatService/D Service execution completed at 1469173718840(ms), restarting at 1469174018840(ms)
+2016-07-22 07:53:45.960+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469174025959, with interval of 5 minutes.
+2016-07-22 07:53:45.961+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:53:46.160+0000 12024 PushHeartbeatService/D Service execution completed at 1469174026159(ms), restarting at 1469174326159(ms)
+2016-07-22 07:58:46.302+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469174326302, with interval of 5 minutes.
+2016-07-22 07:58:46.304+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 07:58:46.459+0000 12024 PushHeartbeatService/D Service execution completed at 1469174326459(ms), restarting at 1469174626459(ms)
+2016-07-22 08:03:46.494+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469174626494, with interval of 5 minutes.
+2016-07-22 08:03:46.496+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:03:46.791+0000 12024 PushHeartbeatService/D Service execution completed at 1469174626790(ms), restarting at 1469174926790(ms)
+2016-07-22 08:08:46.944+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469174926943, with interval of 5 minutes.
+2016-07-22 08:08:46.945+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:08:47.079+0000 12024 PushHeartbeatService/D Service execution completed at 1469174927079(ms), restarting at 1469175227079(ms)
+2016-07-22 08:13:49.500+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469175229500, with interval of 5 minutes.
+2016-07-22 08:13:49.501+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:13:49.599+0000 12024 PushHeartbeatService/D Service execution completed at 1469175229599(ms), restarting at 1469175529599(ms)
+2016-07-22 08:18:49.654+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469175529617, with interval of 5 minutes.
+2016-07-22 08:18:49.656+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:18:49.661+0000 12024 PushHeartbeatService/D Service execution completed at 1469175529660(ms), restarting at 1469175829660(ms)
+2016-07-22 08:23:59.444+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469175839398, with interval of 5 minutes.
+2016-07-22 08:23:59.445+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:23:59.561+0000 12024 PushHeartbeatService/D Service execution completed at 1469175839561(ms), restarting at 1469176139560(ms)
+2016-07-22 08:29:01.239+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469176141238, with interval of 5 minutes.
+2016-07-22 08:29:01.240+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:29:01.340+0000 12024 PushHeartbeatService/D Service execution completed at 1469176141339(ms), restarting at 1469176441339(ms)
+2016-07-22 08:34:06.173+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469176446165, with interval of 5 minutes.
+2016-07-22 08:34:06.175+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:34:06.301+0000 12024 PushHeartbeatService/D Service execution completed at 1469176446300(ms), restarting at 1469176746300(ms)
+2016-07-22 08:39:06.326+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469176746325, with interval of 5 minutes.
+2016-07-22 05:46:53.166+0000 20304 TextNowApp/D e	ANR detection time: 8000 msec
+2016-07-22 05:46:53.244+0000 20304 a/D Initializing acrobits client
+2016-07-22 05:46:54.818+0000 20304 a/I Acrobits register SipAccount called
+2016-07-22 05:46:54.908+0000 20304 a/D Saved account: TextNow SIP Account
+2016-07-22 05:46:54.928+0000 20304 a/D onNetworkChangeDetected - WiFi
+2016-07-22 05:46:54.930+0000 20304 a/D Initialized softphone
+2016-07-22 05:46:55.248+0000 20304 a/D Registration state changed. isRegistered: false
+2016-07-22 05:46:55.270+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 05:46:55.279+0000 20304 TNTaskService/I Queuing task (0):GetFeatureTogglesTask
+2016-07-22 05:46:55.293+0000 20304 TNTaskService/I Starting to run task (0):GetFeatureTogglesTask
+2016-07-22 05:46:55.427+0000 20304 AbstractHttpCommand/I FeatureTogglesVersionGet request made
+2016-07-22 05:46:55.429+0000 20304 AbstractHttpCommand/D FeatureTogglesVersionGet URI: https://features.textnow.com/api/v1/platforms/android/version?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&signature=0bdf39e4b062f0ad331d6f9fd8f76887
+2016-07-22 05:46:55.430+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 05:46:55.432+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 05:46:55.954+0000 20304 AbstractHttpCommand/I FeatureTogglesVersionGet response ok
+2016-07-22 05:46:55.955+0000 20304 AbstractHttpCommand/D FeatureTogglesVersionGet response: {"id":2,"name":"android","enabled":true,"features_version":"2162267533"}
+2016-07-22 05:46:55.957+0000 20304 AbstractHttpCommand/I FeatureTogglesVersionGet request completed
+2016-07-22 05:46:55.974+0000 20304 TNTaskService/I Finished running task (0):GetFeatureTogglesTask
+2016-07-22 06:12:16.535+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 06:12:16.573+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 06:12:16.581+0000 20304 TNTaskService/I Queuing task (1):GetNewMessagesTask
+2016-07-22 06:12:16.585+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 06:12:16.611+0000 20304 TNTaskService/I Starting to run task (1):GetNewMessagesTask
+2016-07-22 06:12:16.650+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 06:12:16.651+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 06:12:16.653+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 06:12:16.654+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 06:12:17.223+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 06:12:17.224+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 06:12:17.233+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 06:12:17.238+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 06:12:17.280+0000 20304 a/D NotificationHelper	not on samsung device, ignore badge count
+2016-07-22 06:12:17.284+0000 20304 TNTaskService/I Finished running task (1):GetNewMessagesTask
+2016-07-22 07:12:17.898+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 07:12:17.943+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 07:12:17.954+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 07:12:17.957+0000 20304 TNTaskService/I Queuing task (2):GetNewMessagesTask
+2016-07-22 07:12:18.030+0000 20304 TNTaskService/I Starting to run task (2):GetNewMessagesTask
+2016-07-22 07:12:18.476+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 07:12:18.478+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 07:12:18.479+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 07:12:18.485+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 07:12:19.640+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 07:12:19.642+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 07:12:19.644+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 07:12:19.648+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 07:12:19.660+0000 20304 TNTaskService/I Finished running task (2):GetNewMessagesTask
+2016-07-22 08:12:21.940+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 08:12:21.973+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 08:12:21.976+0000 20304 TNTaskService/I Queuing task (3):GetNewMessagesTask
+2016-07-22 08:12:21.981+0000 20304 TNTaskService/I Starting to run task (3):GetNewMessagesTask
+2016-07-22 08:12:21.990+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 08:12:22.191+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 08:12:22.193+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 08:12:22.194+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 08:12:22.195+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 08:12:23.201+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 08:12:23.202+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 08:12:23.204+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 08:12:23.258+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 08:12:23.265+0000 20304 TNTaskService/I Finished running task (3):GetNewMessagesTask
+2016-07-22 09:12:22.825+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 09:12:22.874+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 09:12:22.879+0000 20304 TNTaskService/I Queuing task (4):GetNewMessagesTask
+2016-07-22 09:12:22.883+0000 20304 TNTaskService/I Starting to run task (4):GetNewMessagesTask
+2016-07-22 09:12:22.889+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 09:12:23.307+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 09:12:23.309+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 09:12:23.310+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 09:12:23.312+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 09:12:24.541+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 08:39:06.329+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:39:06.450+0000 12024 PushHeartbeatService/D Service execution completed at 1469176746449(ms), restarting at 1469177046449(ms)
+2016-07-22 08:44:06.469+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469177046468, with interval of 5 minutes.
+2016-07-22 08:44:06.470+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:44:06.610+0000 12024 PushHeartbeatService/D Service execution completed at 1469177046609(ms), restarting at 1469177346609(ms)
+2016-07-22 08:49:08.117+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469177348098, with interval of 5 minutes.
+2016-07-22 08:49:08.118+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:49:08.219+0000 12024 PushHeartbeatService/D Service execution completed at 1469177348219(ms), restarting at 1469177648219(ms)
+2016-07-22 08:54:08.239+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469177648238, with interval of 5 minutes.
+2016-07-22 08:54:08.240+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:54:08.340+0000 12024 PushHeartbeatService/D Service execution completed at 1469177648339(ms), restarting at 1469177948339(ms)
+2016-07-22 08:59:08.360+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469177948359, with interval of 5 minutes.
+2016-07-22 08:59:08.361+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 08:59:08.559+0000 12024 PushHeartbeatService/D Service execution completed at 1469177948529(ms), restarting at 1469178248529(ms)
+2016-07-22 09:04:10.210+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469178250210, with interval of 5 minutes.
+2016-07-22 09:04:10.211+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:04:10.309+0000 12024 PushHeartbeatService/D Service execution completed at 1469178250309(ms), restarting at 1469178550309(ms)
+2016-07-22 09:09:10.327+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469178550327, with interval of 5 minutes.
+2016-07-22 09:09:10.329+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:09:10.418+0000 12024 PushHeartbeatService/D Service execution completed at 1469178550417(ms), restarting at 1469178850417(ms)
+2016-07-22 09:14:10.564+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469178850563, with interval of 5 minutes.
+2016-07-22 09:14:10.565+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:14:10.678+0000 12024 PushHeartbeatService/D Service execution completed at 1469178850677(ms), restarting at 1469179150677(ms)
+2016-07-22 09:19:15.026+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469179155005, with interval of 5 minutes.
+2016-07-22 09:19:15.028+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:19:15.036+0000 12024 PushHeartbeatService/D Service execution completed at 1469179155036(ms), restarting at 1469179455035(ms)
+2016-07-22 09:24:15.164+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469179455163, with interval of 5 minutes.
+2016-07-22 09:24:15.165+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:24:15.269+0000 12024 PushHeartbeatService/D Service execution completed at 1469179455269(ms), restarting at 1469179755269(ms)
+2016-07-22 09:29:15.395+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469179755394, with interval of 5 minutes.
+2016-07-22 09:29:15.399+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:29:15.550+0000 12024 PushHeartbeatService/D Service execution completed at 1469179755549(ms), restarting at 1469180055549(ms)
+2016-07-22 09:34:17.445+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469180057444, with interval of 5 minutes.
+2016-07-22 09:34:17.446+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:34:17.599+0000 12024 PushHeartbeatService/D Service execution completed at 1469180057599(ms), restarting at 1469180357599(ms)
+2016-07-22 09:39:25.977+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469180365976, with interval of 5 minutes.
+2016-07-22 09:39:25.978+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:39:26.081+0000 12024 PushHeartbeatService/D Service execution completed at 1469180366080(ms), restarting at 1469180666080(ms)
+2016-07-22 09:44:32.382+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469180672381, with interval of 5 minutes.
+2016-07-22 09:44:32.383+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:44:32.751+0000 12024 PushHeartbeatService/D Service execution completed at 1469180672479(ms), restarting at 1469180972479(ms)
+2016-07-22 09:49:32.632+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469180972631, with interval of 5 minutes.
+2016-07-22 09:49:32.633+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:49:32.836+0000 12024 PushHeartbeatService/D Service execution completed at 1469180972828(ms), restarting at 1469181272828(ms)
+2016-07-22 09:54:33.356+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469181273355, with interval of 5 minutes.
+2016-07-22 09:54:33.357+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:54:33.449+0000 12024 PushHeartbeatService/D Service execution completed at 1469181273449(ms), restarting at 1469181573449(ms)
+2016-07-22 09:59:39.595+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469181579594, with interval of 5 minutes.
+2016-07-22 09:59:39.596+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 09:59:39.739+0000 12024 PushHeartbeatService/D Service execution completed at 1469181579739(ms), restarting at 1469181879739(ms)
+2016-07-22 10:04:39.861+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469181879861, with interval of 5 minutes.
+2016-07-22 10:04:39.863+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:04:39.961+0000 12024 PushHeartbeatService/D Service execution completed at 1469181879961(ms), restarting at 1469182179961(ms)
+2016-07-22 10:09:40.077+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469182180076, with interval of 5 minutes.
+2016-07-22 10:09:40.078+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:09:40.169+0000 12024 PushHeartbeatService/D Service execution completed at 1469182180169(ms), restarting at 1469182480169(ms)
+2016-07-22 10:14:41.996+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469182481996, with interval of 5 minutes.
+2016-07-22 10:14:41.998+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:14:42.017+0000 12024 PushHeartbeatService/D Service execution completed at 1469182482017(ms), restarting at 1469182782004(ms)
+2016-07-22 10:19:42.023+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469182782023, with interval of 5 minutes.
+2016-07-22 10:19:42.025+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:19:42.270+0000 12024 PushHeartbeatService/D Service execution completed at 1469182782269(ms), restarting at 1469183082269(ms)
+2016-07-22 10:24:45.569+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469183085528, with interval of 5 minutes.
+2016-07-22 10:24:45.571+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:24:45.661+0000 12024 PushHeartbeatService/D Service execution completed at 1469183085660(ms), restarting at 1469183385660(ms)
+2016-07-22 10:29:45.676+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469183385676, with interval of 5 minutes.
+2016-07-22 10:29:45.678+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:29:45.682+0000 12024 PushHeartbeatService/D Service execution completed at 1469183385681(ms), restarting at 1469183685681(ms)
+2016-07-22 10:34:45.703+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469183685702, with interval of 5 minutes.
+2016-07-22 10:34:45.704+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:34:46.090+0000 12024 PushHeartbeatService/D Service execution completed at 1469183686089(ms), restarting at 1469183986089(ms)
+2016-07-22 10:39:46.349+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469183986348, with interval of 5 minutes.
+2016-07-22 10:39:46.350+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:39:46.422+0000 12024 PushHeartbeatService/D Service execution completed at 1469183986422(ms), restarting at 1469184286422(ms)
+2016-07-22 10:44:47.855+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469184287853, with interval of 5 minutes.
+2016-07-22 10:44:47.857+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:44:47.864+0000 12024 PushHeartbeatService/D Service execution completed at 1469184287861(ms), restarting at 1469184587861(ms)
+2016-07-22 10:49:47.879+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469184587879, with interval of 5 minutes.
+2016-07-22 10:49:47.881+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:49:48.179+0000 12024 PushHeartbeatService/D Service execution completed at 1469184588179(ms), restarting at 1469184888179(ms)
+2016-07-22 10:54:58.469+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469184898446, with interval of 5 minutes.
+2016-07-22 10:54:58.470+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:54:58.560+0000 12024 PushHeartbeatService/D Service execution completed at 1469184898559(ms), restarting at 1469185198559(ms)
+2016-07-22 10:59:59.116+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469185199115, with interval of 5 minutes.
+2016-07-22 10:59:59.117+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 10:59:59.259+0000 12024 PushHeartbeatService/D Service execution completed at 1469185199259(ms), restarting at 1469185499259(ms)
+2016-07-22 11:05:07.345+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469185507344, with interval of 5 minutes.
+2016-07-22 11:05:07.346+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:05:07.590+0000 12024 PushHeartbeatService/D Service execution completed at 1469185507589(ms), restarting at 1469185807589(ms)
+2016-07-22 11:10:07.706+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469185807705, with interval of 5 minutes.
+2016-07-22 11:10:07.709+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:10:08.191+0000 12024 PushHeartbeatService/D Service execution completed at 1469185808187(ms), restarting at 1469186108187(ms)
+2016-07-22 11:15:08.272+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469186108271, with interval of 5 minutes.
+2016-07-22 11:15:08.274+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:15:08.381+0000 12024 PushHeartbeatService/D Service execution completed at 1469186108380(ms), restarting at 1469186408380(ms)
+2016-07-22 11:20:11.555+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469186411554, with interval of 5 minutes.
+2016-07-22 11:20:11.557+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:20:11.669+0000 12024 PushHeartbeatService/D Service execution completed at 1469186411669(ms), restarting at 1469186711669(ms)
+2016-07-22 11:25:11.860+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469186711857, with interval of 5 minutes.
+2016-07-22 11:25:11.862+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:25:12.151+0000 12024 PushHeartbeatService/D Service execution completed at 1469186711980(ms), restarting at 1469187011980(ms)
+2016-07-22 11:30:11.996+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469187011995, with interval of 5 minutes.
+2016-07-22 11:30:11.997+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:30:12.002+0000 12024 PushHeartbeatService/D Service execution completed at 1469187012001(ms), restarting at 1469187312001(ms)
+2016-07-22 11:35:20.940+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469187320939, with interval of 5 minutes.
+2016-07-22 11:35:20.942+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:35:21.093+0000 12024 PushHeartbeatService/D Service execution completed at 1469187321091(ms), restarting at 1469187621091(ms)
+2016-07-22 11:40:24.520+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469187624519, with interval of 5 minutes.
+2016-07-22 11:40:24.521+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:40:24.811+0000 12024 PushHeartbeatService/D Service execution completed at 1469187624811(ms), restarting at 1469187924811(ms)
+2016-07-22 11:45:33.491+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469187933490, with interval of 5 minutes.
+2016-07-22 11:45:33.493+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:45:33.609+0000 12024 PushHeartbeatService/D Service execution completed at 1469187933609(ms), restarting at 1469188233609(ms)
+2016-07-22 11:50:33.759+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469188233693, with interval of 5 minutes.
+2016-07-22 11:50:33.761+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:50:33.963+0000 12024 PushHeartbeatService/D Service execution completed at 1469188233961(ms), restarting at 1469188533961(ms)
+2016-07-22 11:55:40.670+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469188540669, with interval of 5 minutes.
+2016-07-22 11:55:40.765+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 11:55:40.841+0000 12024 PushHeartbeatService/D Service execution completed at 1469188540840(ms), restarting at 1469188840840(ms)
+2016-07-22 12:00:41.073+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469188841058, with interval of 5 minutes.
+2016-07-22 12:00:41.076+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:00:41.170+0000 12024 PushHeartbeatService/D Service execution completed at 1469188841169(ms), restarting at 1469189141169(ms)
+2016-07-22 12:05:41.280+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469189141279, with interval of 5 minutes.
+2016-07-22 12:05:41.281+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:05:41.419+0000 12024 PushHeartbeatService/D Service execution completed at 1469189141419(ms), restarting at 1469189441419(ms)
+2016-07-22 12:10:43.655+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469189443655, with interval of 5 minutes.
+2016-07-22 12:10:43.689+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:10:43.819+0000 12024 PushHeartbeatService/D Service execution completed at 1469189443819(ms), restarting at 1469189743819(ms)
+2016-07-22 12:15:49.489+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469189749489, with interval of 5 minutes.
+2016-07-22 12:15:49.492+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:15:49.690+0000 12024 PushHeartbeatService/D Service execution completed at 1469189749509(ms), restarting at 1469190049509(ms)
+2016-07-22 12:20:57.982+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469190057981, with interval of 5 minutes.
+2016-07-22 12:20:57.984+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:20:58.161+0000 12024 PushHeartbeatService/D Service execution completed at 1469190058161(ms), restarting at 1469190358161(ms)
+2016-07-22 12:25:58.182+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469190358181, with interval of 5 minutes.
+2016-07-22 12:25:58.183+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:25:58.220+0000 12024 PushHeartbeatService/D Service execution completed at 1469190358219(ms), restarting at 1469190658219(ms)
+2016-07-22 12:30:58.400+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469190658368, with interval of 5 minutes.
+2016-07-22 12:30:58.402+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:30:58.859+0000 12024 PushHeartbeatService/D Service execution completed at 1469190658461(ms), restarting at 1469190958461(ms)
+2016-07-22 12:35:58.490+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469190958489, with interval of 5 minutes.
+2016-07-22 12:35:58.492+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:35:58.621+0000 12024 PushHeartbeatService/D Service execution completed at 1469190958621(ms), restarting at 1469191258621(ms)
+2016-07-22 12:40:58.717+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469191258716, with interval of 5 minutes.
+2016-07-22 12:40:58.718+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:40:58.841+0000 12024 PushHeartbeatService/D Service execution completed at 1469191258840(ms), restarting at 1469191558840(ms)
+2016-07-22 12:46:07.786+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469191567785, with interval of 5 minutes.
+2016-07-22 12:46:07.787+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:46:08.039+0000 12024 PushHeartbeatService/D Service execution completed at 1469191567919(ms), restarting at 1469191867919(ms)
+2016-07-22 12:51:07.939+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469191867939, with interval of 5 minutes.
+2016-07-22 12:51:07.942+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:51:08.147+0000 12024 PushHeartbeatService/D Service execution completed at 1469191868146(ms), restarting at 1469192168146(ms)
+2016-07-22 12:56:08.286+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469192168285, with interval of 5 minutes.
+2016-07-22 12:56:08.287+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 12:56:08.418+0000 12024 PushHeartbeatService/D Service execution completed at 1469192168417(ms), restarting at 1469192468417(ms)
+2016-07-22 13:01:11.989+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469192471961, with interval of 5 minutes.
+2016-07-22 13:01:11.990+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:01:12.111+0000 12024 PushHeartbeatService/D Service execution completed at 1469192472110(ms), restarting at 1469192772110(ms)
+2016-07-22 13:06:12.128+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469192772127, with interval of 5 minutes.
+2016-07-22 13:06:12.129+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:06:12.389+0000 12024 PushHeartbeatService/D Service execution completed at 1469192772389(ms), restarting at 1469193072389(ms)
+2016-07-22 13:11:12.407+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469193072406, with interval of 5 minutes.
+2016-07-22 13:11:12.408+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:11:12.529+0000 12024 PushHeartbeatService/D Service execution completed at 1469193072529(ms), restarting at 1469193372529(ms)
+2016-07-22 13:16:12.651+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469193372650, with interval of 5 minutes.
+2016-07-22 13:16:12.652+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:16:12.781+0000 12024 PushHeartbeatService/D Service execution completed at 1469193372781(ms), restarting at 1469193672781(ms)
+2016-07-22 13:21:27.651+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469193687650, with interval of 5 minutes.
+2016-07-22 13:21:27.653+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:21:27.750+0000 12024 PushHeartbeatService/D Service execution completed at 1469193687739(ms), restarting at 1469193987739(ms)
+2016-07-22 13:26:32.537+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469193992536, with interval of 5 minutes.
+2016-07-22 13:26:32.539+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:26:32.549+0000 12024 PushHeartbeatService/D Service execution completed at 1469193992548(ms), restarting at 1469194292548(ms)
+2016-07-22 13:31:36.720+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469194296720, with interval of 5 minutes.
+2016-07-22 13:31:36.722+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:31:36.726+0000 12024 PushHeartbeatService/D Service execution completed at 1469194296726(ms), restarting at 1469194596725(ms)
+2016-07-22 13:36:46.474+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469194606474, with interval of 5 minutes.
+2016-07-22 13:36:46.476+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:36:46.485+0000 12024 PushHeartbeatService/D Service execution completed at 1469194606485(ms), restarting at 1469194906485(ms)
+2016-07-22 13:41:51.600+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469194911599, with interval of 5 minutes.
+2016-07-22 13:41:51.602+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:41:51.608+0000 12024 PushHeartbeatService/D Service execution completed at 1469194911606(ms), restarting at 1469195211606(ms)
+2016-07-22 13:46:53.646+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469195213645, with interval of 5 minutes.
+2016-07-22 13:46:53.647+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:46:53.652+0000 12024 PushHeartbeatService/D Service execution completed at 1469195213651(ms), restarting at 1469195513651(ms)
+2016-07-22 13:51:55.312+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469195515311, with interval of 5 minutes.
+2016-07-22 13:51:55.313+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:51:55.326+0000 12024 PushHeartbeatService/D Service execution completed at 1469195515325(ms), restarting at 1469195815325(ms)
+2016-07-22 13:57:03.805+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469195823804, with interval of 5 minutes.
+2016-07-22 13:57:03.806+0000 12024 PushHeartbeatService/D Broadcasting manual GCM keep alive intents.
+2016-07-22 13:57:03.833+0000 12024 PushHeartbeatService/D Service execution completed at 1469195823831(ms), restarting at 1469196123830(ms)
+2016-07-22 14:02:08.006+0000 12024 PushHeartbeatService/D Received PushHeartbeatService intent at 1469196128005, with interval of 5 minutes.
+2016-07-22 09:12:24.543+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 09:12:24.548+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 09:12:24.576+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 09:12:24.609+0000 20304 TNTaskService/I Finished running task (4):GetNewMessagesTask
+2016-07-22 10:12:32.273+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 10:12:32.307+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 10:12:32.312+0000 20304 TNTaskService/I Queuing task (5):GetNewMessagesTask
+2016-07-22 10:12:32.319+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 10:12:32.391+0000 20304 TNTaskService/I Starting to run task (5):GetNewMessagesTask
+2016-07-22 10:12:32.430+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 10:12:32.434+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 10:12:32.435+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 10:12:32.437+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 10:12:33.246+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 10:12:33.247+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 10:12:33.249+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 10:12:33.260+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 10:12:33.275+0000 20304 TNTaskService/I Finished running task (5):GetNewMessagesTask
+2016-07-22 11:12:37.448+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 11:12:37.496+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 11:12:37.502+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 11:12:37.507+0000 20304 TNTaskService/I Queuing task (6):GetNewMessagesTask
+2016-07-22 11:12:37.527+0000 20304 TNTaskService/I Starting to run task (6):GetNewMessagesTask
+2016-07-22 11:12:37.584+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 11:12:37.586+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 11:12:37.587+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 11:12:37.589+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 11:12:38.137+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 11:12:38.139+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 11:12:38.140+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 11:12:38.175+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 11:12:38.189+0000 20304 TNTaskService/I Finished running task (6):GetNewMessagesTask
+2016-07-22 12:12:54.502+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 12:12:54.548+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 12:12:54.553+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 12:12:54.571+0000 20304 TNTaskService/I Queuing task (7):GetNewMessagesTask
+2016-07-22 12:12:54.600+0000 20304 TNTaskService/I Starting to run task (7):GetNewMessagesTask
+2016-07-22 12:12:55.000+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 12:12:55.001+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 12:12:55.003+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 12:12:55.021+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 12:12:56.168+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 12:12:56.170+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 12:12:56.172+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 12:12:56.204+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 12:12:56.217+0000 20304 TNTaskService/I Finished running task (7):GetNewMessagesTask
+2016-07-22 13:13:02.305+0000 20304 TNPullService/D Auto pulling messages
+2016-07-22 13:13:02.377+0000 20304 TNPullService/D TextNow	Schedule next auto pull service in 3600 seconds
+2016-07-22 13:13:02.389+0000 20304 TNTaskService/I Start process new task..
+2016-07-22 13:13:02.396+0000 20304 TNTaskService/I Queuing task (8):GetNewMessagesTask
+2016-07-22 13:13:02.401+0000 20304 TNTaskService/I Starting to run task (8):GetNewMessagesTask
+2016-07-22 13:13:02.437+0000 20304 AbstractHttpCommand/I MessagesGet request made
+2016-07-22 13:13:02.439+0000 20304 AbstractHttpCommand/D MessagesGet URI: https://api.textnow.me/api2.0/users/ginat86/messages?client_type=TN_ANDROID&client_id=5f66c3aa60ce46912d0475d3c3e1a2a9d30f639e4525080bfb01d58addb9e9ef&start_message_id=15008085721&page_size=30&latest_announcement_id=433&direction=future&get_all=1&signature=cff528bffde0a2a831988832bb392dc3
+2016-07-22 13:13:02.440+0000 20304 AbstractHttpCommand/D Headers:
+2016-07-22 13:13:02.442+0000 20304 AbstractHttpCommand/D Content-Type: application/x-www-form-urlencoded
+2016-07-22 13:13:03.149+0000 20304 AbstractHttpCommand/I MessagesGet response ok
+2016-07-22 13:13:03.151+0000 20304 AbstractHttpCommand/D MessagesGet response: {"status":{"user_timestamp":"2016-07-20T21:29:25Z","settings_version":"1011","features_version":"2162267533","latest_message_id":15008085721,"latest_announcement_id":433,"num_devices":2},"messages":[]}
+2016-07-22 13:13:03.153+0000 20304 AbstractHttpCommand/I MessagesGet request completed
+2016-07-22 13:13:03.164+0000 20304 GetNewMessagesTask/D TextNow	Bulk inserting 0 messages into database
+2016-07-22 13:13:03.184+0000 20304 TNTaskService/I Finished running task (8):GetNewMessagesTask
+2016-07-22 14:03:42.106+0000 20304 e/E ANR detected in the Main Thread
+2016-07-22 14:03:42.109+0000 20304 e/E Application Not Responding
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            4®ıú@ùyåP[Âm2‘ˇ™&ﬂvŸ¶ûıº PÁ-åP∂…c')˛GÃ%ˆÄì"®ñaU≠€⁄n~|òH¬ΩÈ‰?.√◊S€Øe]√ûÔ‚R:˜ÎätèN~œ!€¸ﬂ«˜,E»ø)2Ö~Œ
+¨êSXÔ\pbı˜AÆs„ÙKz9CO*Ü∞Éìé°∆^ÒQ|'~Œ_Æ√¿w…J˙\ë*<©æêœ˝‰êÚ≥ ∑°˘mRôÍÕc´eG=H›ù˚2]A®◊S•>›∑œd·r£3‰ ËU¨ÿÏúSËylµ\«QèùÈçèÚûéÂ˘ó ‘€¢J}‘Kû◊≈©F5∑ïù≤ªÙ*}X·QÚW°ìiw∫ÊS|óù
+ß˙¢ƒùC‚™píª¬©ã´“Ã*ú
+wÖSÒ*¯>öKÌ6!t›òÕk?ØHgﬁ‡WxcNVp«<¸#£góz„"öò]CcàW…∞CÕ†Q/'•g'›à#≈‡d0Ha∞8Liﬁ‚˘ÑK‰øNxDo‹%áƒà8ã ¿|à∑ü°!ç˙'µØòùöeÂΩ¡ìkZêëÔÊêå»™Í·]çyxƒyr≤Ác$∆e3hÎ˝õ;…5p9∂¡\˛ú@NNÎ ¥{'‰FéøC\ﬂå6]Ù–ó=òÔh>u‹õ˘°Y‡∞©ìö9'Ãù4≠ˆOyóO8kÛ «r2Sá7´WbV$wÌGRˇIé1u∫0uJ3ˇINA‡à©SbÍh
+¸”8ÊÜúÄÙ´- ¸†%#”≈˝/Hy"¸uÏ≠>›¥vKVm¸lºÍwæß∑Ω)ÕåÖåÃÇ1∂∞˘ ä¨∫Cˇ]h˛‘ÛK=\5Úˆ-Aîà6¸öüDLduó_I"yı◊"‘˘*m+˝H++\›IY˙ã—±cÂ^
+jÓœ≈ € ‹†¶ ‚÷7i∂kaÑÆÖ∂¨Ù≥ˇÈ˘!≤ˆ÷d4£X¢&µ§Rg?.+g≈+∆ÉVgf·´Ûá7W˚”˛
+åÇê±çÖªU°©àëáJDå¿éÔ8$}4ë†äVUº|©C¨Z1¸ÊÁLäŸˇﬁà‰!≠Ï`¶∂_≠ˆN¶aÁƒœ≤É3î"ˆguL£ÔcﬁÂ2{‹eF·5’…(p∞^ÿÿ„˘ÁÌ5Ïµ-l_yâv6vâ›ÜÁmmÌ¿·Í◊~)§âÙ ]∞ÀlG˝p+G\’â79˙ãóÊ{‘¸;ˆ3‘¶…Æ≠∂Øtlê∂ïŸ1È◊∏A;ÙK’òñV*È€K€—8Zém∑xÓ?ª◊÷∂ˇ¨¥ÌﬁC˘é›!ªÃQ°X™∆ç¥";⁄=ø£q¥€X3∆˛?›æªwµxµí=Î≥á”\Éπ}—=
+ß≠$ﬁªÎ(Q˜Cè9;ôTÊÿàãù€È‰⁄]≈3â/—»‰∏^qX|yÅﬂ&‰Jp>éΩ‡›Ü§ÓÓuwlŸ€ﬁù:t,ù	m7åˇèÔœŸ}åÁ„√yEEøÂmjfœ.~™Ñî¬∂˜üÏ1+äôUW)9˛3Ò°ÑW3Àn¬Á!p_»p∆˘+üö\ß†)|,^üÁÜ©0°ã—ﬁ`BΩ∆2¿?/3‰ø∂˛IÍ†™ìÓ=)Ωùfﬂ<Ö·è;Íe¡âÆüh˘aÛ˝ÅùHh£ø√ñpà]+Ωﬂ0ÈêÌ`ÔoÍuÕæ∂xén]Æ∆ƒ€NÅ#[\ˆ•∂jØõ¸#ı˛
+ø{Ωˆó≥Êöø Ø6UMæ⁄Ï‹ãÁÊˆÿJ].|ﬂ÷’6íWqΩK89Ù»&°/5UÕLza¢k"⁄‹ì´œTÛ.è≥∏P„íà;H¬´Å#≤´ØíZÒH_sNsÉ:‡ÙıŸ§c:}ÅdﬁﬁºnqÃApùh™∫§óTAü>r≠æäù%a=öÍ zˇ°Ìñ*©…˙∏;ΩÁ‰ˆ+˚Õ˛o}¡XV'‰¿S˚tbbàGÏY”á*'è˚é:—:¬N–˝€uUr5}Õ'≠ñMÜ¢áö†∂ä,$aëΩ”{nn]⁄a8ºÅ\m©⁄ÌS∫…ä=ô∫⁄Z]+ì€H%´ıÑ@–÷C˝PL∫⁄<˚_π€tËOa/˘#ÿL	c∫?NÉBG√CÕ∫‚X+ø¢¶c4b$J˙s…_4¸T›Öj™po◊≥Ê¥ı¡]'îÜkèx2»¢{•‰%>È˙W;Â∆Xˆ≈ıñ˝áG:<∫»£úÌ≈∫Ö˛üÿrÅ&2ŒÏ√hs≠k/∆>ºÖû∏ƒ‚$wylë;ãπ1Eq8â≠ÖDCq=âkÿó¡ˆc∞?√ZEﬂ∑Q∆9Ë»ƒb∆L®lªÿçª(_lÉ≈çNﬂâhQzÒÀì%'ììLNΩ6ú•^(‡Ã>‚∏EÈπäÅË∑Ç‘ã	q]ÇÅ6!\ƒPËàÚ∂⁄ˆòı˝:¢AEÎ@M=¸™i9
+˚äZ£i€é√<OY¨Gß=¶#Óùˇ^ÛåÿÅ«AÙú^ìX«Å»ò7∏Ak0€ìmÎC	HÒ∫’÷$kPù6¯«•\Î∂Û%WÙ„æ	9-øˆ±Ô©œ™5µûÂ…)∂]Yk¢©ˆn1‹)^!EG≈,œ†{à(WRÇ?ó
+*©˙aÛµ_C˘±ùaD—Àü∏Ó 4€¶,˝A5ÓQRÃ¯Ò¥¡Ìj∆C≈Ñ8\/ÓµïBÛ<ÖÙxîÑ∂∫õ–`2nÔZﬁoŸ›g%æs“xˆ˝⁄∏”∞)wYYõas8ﬂW à%æD «$∫>A#33 ÿrF±∂û∑?Úû3èdì'•‹Â?—˛¥–Y¿‹óe^e	≥zlŸˇ
+ôá◊.Äø
+&tN˛UÆ“ë4Øc¶Ù2$…SﬂÀgLÈâ™©Xsf∂D¿
+≤D›»r#ﬂCdâÂ≈≤øú∆j.óˇµZkçUø€Ëøn∑Çí·Yô?ÈˆöÖ¢Yf§§|ôQx+â ∆™XÛX˛˙Ú˙uñ≤ñ≤dùÿo,$Œ]—¨/ß,∂ãÔÊ//TÌ˝Æ∫,µ÷c€ ¬¶îZÔ©—Æ⁄˜†ŒÉ…îåÈSa./Û∫Âi¯c…©é≤∫N·≈%©˙—RSuWLºJæ
+ö‹∂Ìœª‘†°œh1ﬁuùŒ#±o33óó{|yπe #lG,©Ê‰ôÄÕxR˝M"£^/R«µà{,Á2YD˛ãB"¬ZI˝V=|¿âˇoSªIÁ≈?à≥À	jõ\\kDû˙ohs Ñ©Øé¸®Û;G´ %âúi;âËzã$Å¸∫#^EÂ`uÉ«>Œn¿nö+g\eM¯ò≠Õôá˘S4‡ﬂèıRÔw∫Sr,“ÃªﬁÅo”Ô=(â3ò≥[ÿdK«π}é:)‹¿íC3XäeXnØê_g0ﬂır~ÛP¢Bç&≤Å/‹hrc}ÃfÎ2ø¬u°_Úπ”oh…ÔÊøôº9	H&UnËMGà p}ﬂ‡'∫[Í+úRÑ5h8„EÔqìl0Öæ·!àJs«ªÄÔ$d˛#îö˘¯&¬¯AsSA˛‘”ÏÒ˚˛˚*ÕBø&JØÍÈûÜ˛«{~·]·›·ùiNã-<s)˘yÓ*ø"ÇAw.≠Û’≠KìY:|i=Î√FGƒÊÓ√„Øo∑ÀÓ≥%¬,ñ∞åE{E∆Õ"∑[πù“NÍ§∫ßo.÷∞éU{√,G°˚7ÎQÄÙ—“öd˜g≠I¨/É"'6RÌ‡Á{D˘[r-êoÖJå$xâêî÷ôÂiQíxX+h’ø˙Dz‘∂ÂÈŸ®4 xÕâè3÷Æ[ëÙ?sy£jƒûYTSR"ˇ9œﬂLŒ∑[ë~^ª‚Üàÿ 	Ÿò∑ñPédŸXÙ|æ‹›O3
+ REp'“”Ä¨ëzB˘â°¬¨c¢p€ê¥7∆V”P]@U®oç7+…ó%(Å<†U gïaYLî-»“º"8∆…’ùf›Æú*>´eNÜERùú	;˚™:ôª«îá` >¶¶Àdœ√œ≥`\`Ìp8nÄ¬2ëúààÙ¶€ÉeAÜu6ÕÚÒ¥7ZOˆd¶vßJ≠sc©‰óŸt0fJ…‡S¬%Òœò(…Où70¶—Ç/∞ôü8¿Æq$Å¶û˘4
